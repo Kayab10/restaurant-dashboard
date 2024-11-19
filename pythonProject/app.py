@@ -10,7 +10,7 @@ st.logo(image=image,size='large')
 st.title('About')
 st.write('So, this is my project on resturant data analysis and plotting them on map')
 st.header('go to recommend section on sidebar for project')
-st.write('This is a restaurant recommendation software that ask for location and cuisine and plot them on map;
+st.write('This is a restaurant recommendation software that ask for location and cuisine and plot them on map;'
 
 '- extracted dataset from kaggle(from swiggy)'
 '- performed EDA and feature engineering on it to filter necessary information,'
