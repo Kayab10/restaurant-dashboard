@@ -10,13 +10,13 @@ st.logo(image=image,size='large')
 st.title('About')
 st.write('So, this is my project on resturant data analysis and plotting them on map')
 st.header('go to recommend section on sidebar for project')
-st.write('This is a restaurant recommendation software that ask for location and cuisine and plot them on map;'
+st.write('This is a restaurant recommendation software that ask for location and cuisine and plot them on map;')
 
-'- extracted dataset from kaggle(from swiggy)'
-'- performed EDA and feature engineering on it to filter necessary information,'
-'- implemented a "geocoding" library API that extracted coordinates of the restaurant provided with address and city details,'
-'- visualized restaurant on map using "folium library",'
-'- created and hosted on streamlit.')
+st.write('- extracted dataset from kaggle(from swiggy)')
+st.write('- performed EDA and feature engineering on it to filter necessary information,')
+st.write('- implemented a "geocoding" library API that extracted coordinates of the restaurant provided with address and city details,')
+st.write('- visualized restaurant on map using "folium library",')
+st.write('- created and hosted on streamlit.')
 # st.write('you may argue that this is not Machine Learning project and youre right, it is not, it is simple GEOSPATIAL project.' 
 #          ' however this project uses many data science techniques, such as feature engineering, data analysis')
 # st.write('for this project i used two data set one from a fake shady intern company and one from kaggle of swiggy dataset,'
